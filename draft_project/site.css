@@ -1,0 +1,80 @@
+html, body{
+  display: block;
+  margin: 0;
+  padding: 0; 
+  overflow: hidden;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+
+object{
+  height: 600%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#content{
+    /* transform: scale(0.5) translate(-2%); */
+    -webkit-transform: scale(0.321) translate(-106%);
+    padding: 0;
+    zoom: 150%;
+    margin-top: -80%;
+}
+#content2{
+    height: 100%;
+    margin-top: 0%;
+    zoom: 136%;
+}
+
+#box-left{
+  float: left;
+  transform-origin: 0 0;
+  width: 30%;
+}
+#mobile-box {
+    transform-origin: 0 0;
+    right: 0;
+    width: 23%;
+    height: 100%;
+    position: absolute;
+}
+
+#box-right{
+     width: 52%;
+    float: right;
+    overflow: hidden;
+    background: url(b7.jpg) no-repeat center center;
+    background-size: cover;
+    padding-right: 230px;
+} 
+#scr2{
+    margin-top: -151px;
+    height: 1300px;
+    overflow: hidden;
+    -webkit-transform: scale(0.767) translate(15%) !important;
+}
+#scr{
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+div.counter {
+    position: fixed;
+    bottom: 0;
+    right: left;
+    z-index: 2;
+    width: 10%;
+    height: 15px;
+    display: block;
+    text-align: center;
+    border: 1px solid red;
+    background-color: white;
+    opacity: 0.7;
+}
+#counter{
+  padding-top: 5px;
+  font-size: 10px;
+}
